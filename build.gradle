@@ -1,0 +1,19 @@
+plugins {
+    id 'java'
+}
+
+group 'org.endeca.xm'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'org.projectlombok:lombok:1.18.20'
+    implementation 'com.fasterxml.jackson.core:jackson-core:2.12.2'
+    implementation 'com.fasterxml.jackson.dataformat:jackson-dataformat-csv:2.12.2'
+    implementation 'com.fasterxml.jackson.core:jackson-databind:2.11.2'
+    implementation 'com.fasterxml.jackson.core:jackson-annotations:2.12.2'
+    implementation 'org.apache.commons:commons-lang3:3.12.0'
+}

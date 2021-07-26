@@ -1,0 +1,9 @@
+#Gradle build specific
+out/
+.gradle
+build
+
+#IDEA specific
+.idea
+untitled
+output
